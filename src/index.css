@@ -1,0 +1,11 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-container{
+    height: 30vh;
+    width: 30vw;
+    min-width: 160px;
+    z-index: 0;
+}
