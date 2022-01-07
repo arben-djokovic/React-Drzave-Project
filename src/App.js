@@ -4,9 +4,9 @@ import Select from 'react-select';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 function App() {
-  var [data, setData] = useState([])
-  var [selectOptions, setSelectOptions] = useState([])
-  var [selectedCountry, setSelectedCountry] = useState('')
+  let [data, setData] = useState([])
+  let [selectOptions, setSelectOptions] = useState([])
+  let [selectedCountry, setSelectedCountry] = useState('')
 
   const axios = require('axios');
   
